@@ -9,7 +9,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 700px;
 }
 
 .passo {
@@ -20,12 +20,13 @@ body {
     display: block;
 }
 
-p {
-    font-size: 1.2em;
-    margin: 20px;
-    line-height: 1.6;
+main {
     text-align: center;
-    letter-spacing: 1px;
+    max-width: 90%;
+}
+
+p {
+    font-size: 30px;
 }
 
 button {
@@ -36,6 +37,7 @@ button {
     padding: 10px 20px;
     font-size: 1em;
     cursor: pointer;
+
 }
 
 button:hover {
@@ -46,10 +48,4 @@ button:hover {
 img {
     max-width: 100%;
     height: auto;
-    opacity: 0;
-    transition: opacity 1s ease;
-}
-
-img.ativo {
-    opacity: 1;
 }
