@@ -46,5 +46,6 @@ button:hover {
 }
 
 img {
-    max-width: 70%;
+    max-width: 90%;
+    max-height: 400px;
 }
